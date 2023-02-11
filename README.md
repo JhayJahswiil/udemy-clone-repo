@@ -35,7 +35,7 @@ Will be implementing with what we have leant from the Frontend Bootcamp using `H
 All work contained in this project was completed as part of the curriculum for
 LearnlyApp Tech Bootcamp-Frontend. LearnlyApp Tech Bootcamp-Frontend is an online program that prepares noviec for careers in the tech industry
 using project-based peer learning. For more information, visit
-[this link](#!).
+[this link](https://technifyincubator.com/).
 
 <p align="center">
   <img src="https://github.com/JhayJahswiil/udemy-clone-repo/blob/main/Technify_Logo.png"
