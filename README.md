@@ -17,7 +17,7 @@ Will be implementing with what we have leant from the Frontend Bootcamp using `H
 | DEVELOPERS  |
 -------------------------------------------------------------------------------------------------------- |
 | <a href="https://github.com/JhayJahswiil" target="_blank">Jahy Jahswill</a>
-| <a href="https://www.github.com/Izimartin/" target="_blank">MARTINS AKHIVBAREME</a>
+| <a href="https://www.github.com/Izimartin/" target="_blank">Izi Martin</a>
 | <a href="#" target="_blank"></a>
 | <a href="#" target="_blank"></a>
 | <a href="#" target="_blank"></a>
