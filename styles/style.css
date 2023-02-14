@@ -259,3 +259,61 @@ button{
     gap: 40px;
     padding: 0 30px;
 }
+
+/* STORIES */
+.stories{
+    margin-top: 7em;
+    background-color: #f7f9fa;
+}
+
+.story{
+    background-color: var(--white-clr);
+    justify-content: space-between;
+    max-width: 870px;
+    min-height: 50vh;
+    margin: 40px auto;
+    border: 1px solid rgba(88, 87, 87, 0.302);
+    padding: 0 10em 0 25px;
+}
+
+/* .story .left{
+    max-width: 435px;
+} */
+
+.story .left i{
+    font-size: 20px;
+}
+
+.story .left p{
+    margin-bottom: 5em;
+    max-width: 443.75px;
+    text-align: justify;
+}
+.story .left a{
+    color: var(--blue-clr);
+    font-weight: bold;
+}
+
+.story .right{
+    text-align: center;
+}
+
+.story .right img{
+    width: 150px;
+    border-radius: 80px;
+}
+
+.story .right span{
+    color:#282828ac;
+}
+.story .right p{
+    margin-top: 12px;
+}
+
+.stories .more {
+    justify-content: center;
+    color: var(--blue-clr);
+    font-weight: bold;
+    margin-top: 2em;
+    text-decoration: none;
+}
