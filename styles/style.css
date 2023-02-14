@@ -106,7 +106,7 @@ position: absolute;
 }
 
 .courses-carousel-title{
-    border: 1px solid rgba(92, 92, 92, 0.757);
+    border: 1px solid rgba(52, 51, 51, 0.18);
     margin-top: 25px;
     padding: 30px;
 }
@@ -269,6 +269,7 @@ button:hover{
 .stories{
     margin-top: 7em;
     background-color: #f7f9fa;
+    border: 2px solid rgba(26, 26, 26, 0);
 }
 
 .story{
@@ -281,15 +282,12 @@ button:hover{
     padding: 0 10em 0 25px;
 }
 
-/* .story .left{
-    max-width: 435px;
-} */
-
 .story .left i{
     font-size: 20px;
 }
 
 .story .left p{
+    margin-top: 6px;
     margin-bottom: 5em;
     max-width: 443.75px;
     text-align: justify;
@@ -321,6 +319,7 @@ button:hover{
     font-weight: bold;
     margin-top: 2em;
     text-decoration: none;
+    padding-bottom: 30px;
 }
 
 /* UDEMY BUSINESS */
