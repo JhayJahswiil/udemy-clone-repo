@@ -18,11 +18,9 @@ Will be implementing with what we have leant from the Frontend Bootcamp using `H
 -------------------------------------------------------------------------------------------------------- |
 | <a href="#" target="_blank">Ibiyemi Pedro (Instructor)</a>
 | <a href="#" target="_blank">Cyntexia (Moderator)</a>
-| <a href="https://github.com/JhayJahswiil" target="_blank">Jahy Jahswill</a>
+| <a href="https://github.com/JhayJahswiil" target="_blank">Jhay Jahswill</a>
 | <a href="https://www.github.com/Izimartin/" target="_blank">Izi Martin</a>
-| <a href="#" target="_blank"></a>
-| <a href="#" target="_blank"></a>
-| <a href="#" target="_blank"></a>
+| <a href="https://github.com/Olabisi201" target="_blank">Olabisi</a>
 
 <p align="center">
 <img src="https://github.com/JhayJahswiil/udemy-clone-repo/blob/main/Technify_Logo.png"
