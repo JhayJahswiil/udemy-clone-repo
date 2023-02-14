@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -22,11 +23,10 @@ body{
 
 .header-section{
     background-color: var(--white-clr);
-    /* border: 2px solid red; */
 }
 
 .header-nav{
-    padding: 11px 2em;
+    padding: 14px 1.3em;
     position: relative;
     z-index: 1000;
     box-shadow: 0px 2px 6px 0px rgba(158,149,149,0.57);
@@ -36,27 +36,99 @@ body{
 
 .nav-items ul{
     justify-content: space-between;
+    gap: 2px;
     list-style: none;
 }
 
+.nav-items ul a{
+    text-decoration: none;
+    color: var(--black-clr);
+    font-size: 14px;
+    font-weight: 500;
+}
 
+.nav-items .search-input{
+    position: relative;
+}
+
+.search-input .search{
+    padding: 13px 40px;
+    width: 580px;
+    border-radius: 20px;
+    border: 1px solid var(--black-clr);
+    background-color: rgba(240, 248, 255, 0.611);
+    outline: none;
+    font-size: 14px;
+}
+
+.nav-items .search-input .fa-magnifying-glass{
+    position: absolute;
+    left: 12px;
+    top: 13px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.419);
+}
+
+.cart i{
+    font-size: 17px;
+}
+
+.cart:hover{
+    color: var(--blue-clr);
+}
+
+.login{
+    padding: 7px 16px;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login:hover{
+    background-color: rgba(195, 205, 212, 0.228);
+}
+
+.signup{
+    padding: 8px 16px;
+    background-color: var(--black-clr);
+    color: var(--white-clr);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signup:hover{
+    background-color: black;
+}
+
+.globe i{
+    font-size: 20px;
+    border: 1px solid var(--black-clr);
+    padding: 7px 9px;
+}
+
+.globe i:hover{
+    background-color: rgba(195, 205, 212, 0.228);
+}
+
+/* HERO SECTION */
 .hero-section{
-    background: url(../assets/img/hero-bg.png);
+    background: url(../assets/img/hero-bg-2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 420px;
+    height: 400px;
     position: relative;
-    /* margin: 0 5px 0 5px; */
-    width: 100%;
-    /* border: 2px solid red; */
+    width: 99.3%;
+    margin: auto;
 }
 
 .hero-txt{
     background-color: var(--white-clr);
-    padding: 22px;
+    padding: 21px;
     width: 450px;
-    margin: 70px 5em 0;
+    margin: 68px 5em 0;
     color: var(--black-clr);
     box-shadow: 10px 6px 30px -9px rgba(158,149,149,0.57);
 -webkit-box-shadow: 10px 6px 30px -9px rgba(158,149,149,0.57);
@@ -70,9 +142,8 @@ position: absolute;
 }
 
 .hero-txt p{
-    margin-top: 5px;
-    /* border: 2px solid red; */
-    font-size: 19px;
+    margin-top: 6px;
+    font-size: 16px;
 }
 
 /* MAIN */
@@ -139,11 +210,26 @@ button:hover{
     overflow-x: scroll;
     gap: 10px;
     padding-bottom: 23px;
+    position: relative;
 }
 
 .courses-carousel-contents::-webkit-scrollbar{
     background-color: rgba(198, 194, 194, 0.156);
     height: 2px;
+}
+
+.carousel-arrow{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: var(--black-clr);
+    color: var(--white-clr);
+    border-radius: 40px;
+    padding: 12px 17px;
+    font-weight: bolder;
+    font-size: 25px;
+    z-index: 100000000000;
+    display: none;
 }
 
 .courses-carousel-content a{
@@ -213,6 +299,11 @@ button:hover{
 .student-viewing title{
     margin-top: 2em;
     padding: 0 2em;
+}
+
+.student-carousel-img img{
+    height: 130px;
+    width: 280px;
 }
 
 /* FEATURED TOPICS */
