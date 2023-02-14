@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black-clr: #1c1d1f;
+    --white-clr: #fff;
+    --blue-clr: #5624d0;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    font-family: udemy sans,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    width: 100%;
+}
+
+.header-section{
+    background-color: var(--white-clr);
+    /* border: 2px solid red; */
+}
+
+.header-nav{
+    padding: 11px 2em;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0px 2px 6px 0px rgba(158,149,149,0.57);
+-webkit-box-shadow: 0px 2px 6px 0px rgba(158,149,149,0.57);
+-moz-box-shadow: 0px 2px 6px 0px rgba(158,149,149,0.57);
+}
+
+.nav-items ul{
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.hero-section{
+    background: url(../assets/img/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 420px;
+    position: relative;
+    /* margin: 0 5px 0 5px; */
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+.hero-txt{
+    background-color: var(--white-clr);
+    padding: 22px;
+    width: 450px;
+    margin: 70px 5em 0;
+    color: var(--black-clr);
+    box-shadow: 10px 6px 30px -9px rgba(158,149,149,0.57);
+-webkit-box-shadow: 10px 6px 30px -9px rgba(158,149,149,0.57);
+-moz-box-shadow: 10px 6px 30px -9px rgba(158,149,149,0.57);
+position: absolute;
+    /* border: 2px solid red; */
+}
+
+.hero-txt h1{
+    font-size: 33px;
+}
+
+.hero-txt p{
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    font-size: 19px;
+}
+
+/* MAIN */
+.main-sec{
+    width: 100%;
+}
+
+.courses{
+    margin-top: 2em;
+    color: var(--black-clr);
+    padding: 0 2em;
+}
+
+.title h2{
+    font-size: 32px;
+}
+
+.title p{
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+/* COURSES-LIST */
+.courses-list ul{
+    color: var(--black-clr);
+    margin-top: 20px;
+    list-style: none;
+    gap: 30px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.courses-carousel-title{
+    border: 1px solid rgba(92, 92, 92, 0.757);
+    margin-top: 25px;
+    padding: 30px;
+}
+
+.courses-carousel-title h3{
+    font-size: 25px;
+}
+
+.courses-carousel-title p{
+    margin-top: 12px;
+    font-size: 16px;
+    max-width: 800px;
+}
+
+.courses-carousel-title button{
+    padding: 12px 16px;
+    background-color: transparent;
+    font-weight: bolder;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.courses-carousel-contents{
+    margin-top: 25px;
+    overflow-x: scroll;
+    gap: 30px;
+}
+
+.courses-carousel-contents::-webkit-scrollbar{
+    background-color: rgba(198, 194, 194, 0.156);
+    height: 2px;
+}
+
+.courses-carousel-contents img{
+    height: 130px;
+    width: 240px;
+    border: 1px solid rgba(0, 0, 255, 0.167);
+}
