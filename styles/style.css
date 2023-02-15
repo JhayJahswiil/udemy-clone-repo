@@ -36,7 +36,6 @@ body{
 
 .nav-items ul{
     justify-content: space-between;
-    gap: 2px;
     list-style: none;
 }
 
@@ -45,6 +44,11 @@ body{
     color: var(--black-clr);
     font-size: 14px;
     font-weight: 500;
+    padding: 25px 3px;
+}
+
+.nav-items ul a:hover, .categories:hover .categories-subMenu-1 ul li a:hover{
+    color: var(--blue-clr);
 }
 
 .nav-items .search-input{
@@ -71,10 +75,6 @@ body{
 
 .cart i{
     font-size: 17px;
-}
-
-.cart:hover{
-    color: var(--blue-clr);
 }
 
 .login{
@@ -111,6 +111,119 @@ body{
 .globe i:hover{
     background-color: rgba(195, 205, 212, 0.228);
 }
+
+/* CATEGORIES */
+.categories-subMenu-1{
+    display: none;
+}
+
+.categories:hover .categories-subMenu-1{
+    display: block;
+    position: absolute;
+    margin-top: 27px;
+    width: 270px;
+    background-color: var(--white-clr);
+    border: 1px solid rgba(55, 55, 55, 0.372);
+}
+
+.categories:hover .categories-subMenu-1 ul{
+    width: 100%;
+    padding: 2px 0 6.5em;
+}
+
+.categories:hover .categories-subMenu-1 ul li{
+    padding: 5px 6px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    position: relative;
+}
+
+.categories:hover .categories-subMenu-1 ul li a{
+    color: var(--black-clr);
+    font-weight: 500;
+    font-size: 14px;
+    /* border: 2px solid red; */
+    padding: 2px 20px;
+    display: block;
+    width: 100%;
+}
+
+.categories-subMenu-1 .fa-greater-than{
+    /* float: right; */
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    top: 15px;
+    right: 12px;
+}
+
+/* DEV MENU */
+.sub-menu-2{
+    display: none;
+}
+
+.sub-menu-title:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    right: -17em;
+    width: 270px;
+    background-color: var(--white-clr);
+    border: 1px solid rgba(55, 55, 55, 0.372);
+    padding: 2px 2px 6.1em;
+}
+
+/* UDEMY POPUP */
+.popup-content{
+    display: none;
+}
+
+.popup-content button{
+    padding: 10px 50px;
+}
+.popup:hover .popup-content{
+    position: absolute;
+    display: block;
+    max-width: 320px;
+    margin-top: 30px;
+    margin-left: -9em;
+    text-align: center;
+    background-color: var(--white-clr);
+    padding: 17px 7px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid rgba(92, 92, 92, 0.424);
+}
+
+/* CART POPUP */
+.cart-popup-content{
+    display: none;
+}
+
+.cart-popup:hover .cart-popup-content{
+    position: absolute;
+    display: block;
+    margin-top: 30px;
+    margin-left: -14em;
+    text-align: center;
+    background-color: var(--white-clr);
+    padding: 13px 4em;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid rgba(92, 92, 92, 0.424);
+    color: rgba(0, 0, 0, 0.683);
+}
+
+.cart-popup:hover .cart-popup-content p{
+    margin-bottom: 10px;
+}
+
+.cart-popup:hover .cart-popup-content a{
+    color: var(--blue-clr);
+    font-size: 16.5px;
+}
+
+
 
 /* HERO SECTION */
 .hero-section{
