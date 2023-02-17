@@ -37,6 +37,7 @@ body{
 .nav-items ul{
     justify-content: space-between;
     list-style: none;
+    /* gap: 10px; */
 }
 
 .nav-items ul a{
@@ -51,13 +52,19 @@ body{
     color: var(--blue-clr);
 }
 
+.nav-items li:nth-child(3){
+    width: 580px;
+    /* padding-right: 60px; */
+}
+
 .nav-items .search-input{
     position: relative;
+    border: 2px solid red;
 }
 
 .search-input .search{
     padding: 13px 40px;
-    width: 580px;
+    width: 100%;
     border-radius: 20px;
     border: 1px solid var(--black-clr);
     background-color: rgba(240, 248, 255, 0.611);
@@ -629,3 +636,157 @@ button:hover{
     text-decoration: none;
     cursor: auto;
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 980px) {
+    .udemy-bus{
+        flex-direction: column-reverse;
+        margin-top: 5em;
+        justify-content: center;
+        gap: 2em;
+        text-align: center;
+    }
+
+    .udemy-bus li{
+        text-align: left;
+    }
+
+    .upskill h3{
+        font-size: 35px;
+        max-width: 630px;
+    }
+    .upskill .black-btn{
+        padding: 20px 7em;
+        background-color: var(--black-clr);
+        color: var(--white-clr);
+        font-weight: bolder;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-right: 3px;
+    }
+
+    .upskill button{
+        padding: 20px 7em;
+    }
+
+    .upskill-img img{
+        width: 600px;
+    }
+
+    .upskill ul{
+        margin-top: 5px;
+        padding-left: 25px;
+        font-size: 22px;
+        max-width: 600px;
+    }
+
+    .upskill li{
+        padding: 6px;
+    }
+
+    /* BECOME AN INSTRUCTOR */
+    .instructor{
+        flex-direction: column;
+        gap: 2em;
+        margin-top: 5em;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .instructor-txt h3{
+        font-size: 35px;
+    }
+
+    .instructor-txt p{
+        margin-top: 5px;
+        font-size: 20px;
+        max-width: 600px;
+    }
+
+    .instructor-img img{
+        width: 500px;
+    }
+
+    /* TRUSTED TEAMS */
+    .trusted-teams{
+        margin-top: 5em;
+        text-align: center;
+        color: var(--black-clr);
+    }
+
+    .trusted-teams-title h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .teams{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 30px;
+        justify-items: center;
+        column-gap: 15px;
+        padding: 0 30px;
+    }
+}
+
+/* MEDIA SCREEN AT 700PX */
+@media screen and (max-width: 700px){
+    .foot-sec{
+        margin-top: 5em;
+        background-color: var(--black-clr);
+        padding: 30px 20px;
+    }
+
+    .footer-head{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .cols{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    .col ul{
+        list-style: none;
+    }
+
+    .col ul li{
+        padding: 5px;
+    }
+
+    .col ul a{
+        color: var(--white-clr);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .col ul a:hover{
+        text-decoration: underline;
+    }
+
+    .lang button{
+        border-color: var(--white-clr);
+        color: var(--white-clr);
+        padding: 12px 40px;
+        font-size: 20px;
+    }
+
+    /* FOOTER-BOTTOM */
+    .footer-bottom{
+        margin-top: 4em;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+    }
+
+    .footer-bottom p{
+        color: white;
+        text-decoration: none;
+        cursor: auto;
+        font-size: 12px;
+    }
+} 
