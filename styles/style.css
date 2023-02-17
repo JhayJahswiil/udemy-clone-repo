@@ -595,10 +595,12 @@ button:hover{
 .footer-head{
     justify-content: space-between;
     align-items: flex-start;
+    gap: 30px;
 }
 
 .cols{
-    gap: 6em;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .col ul{
@@ -606,25 +608,22 @@ button:hover{
 }
 
 .col ul li{
-    padding: 5px;
+    padding: 10px;
 }
 
 .col ul a{
-    color: var(--white-clr);
-    text-decoration: none;
     font-size: 14px;
-    font-weight: 400;
-}
-
-.col ul a:hover{
-    text-decoration: underline;
+    color: var(--white-clr);
+    font-weight: 500;
+    text-decoration: none;
 }
 
 .lang button{
-    border-color: var(--white-clr);
+    background-color: transparent;
     color: var(--white-clr);
+    border: 1px solid var(--white-clr);
+    padding: 5px 30px;
 }
-
 /* FOOTER-BOTTOM */
 .footer-bottom{
     margin-top: 4em;
@@ -645,16 +644,22 @@ button:hover{
         justify-content: center;
         gap: 2em;
         text-align: center;
+        padding: 0 30px;
     }
 
     .udemy-bus li{
         text-align: left;
     }
 
+    .upskill{
+        padding: 0 30px;
+    }
+    
     .upskill h3{
         font-size: 35px;
         max-width: 630px;
     }
+
     .upskill .black-btn{
         padding: 20px 7em;
         background-color: var(--black-clr);
@@ -670,7 +675,7 @@ button:hover{
     }
 
     .upskill-img img{
-        width: 600px;
+        width: 74%;
     }
 
     .upskill ul{
@@ -700,11 +705,12 @@ button:hover{
     .instructor-txt p{
         margin-top: 5px;
         font-size: 20px;
-        max-width: 600px;
+        max-width: 650px;
+        padding: 0 30px;
     }
 
     .instructor-img img{
-        width: 500px;
+        width: 90%;
     }
 
     /* TRUSTED TEAMS */
